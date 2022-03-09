@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Syne+Mono&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   transition: 0.2s linear all;
+  font-family: 'Arvo', serif;
 }
 body {
   background-color: #dbdbdb;
@@ -28,8 +30,9 @@ nav {
 }
 
 .logo-img {
-  display: block;
-  width: 50px;
+  font-size: 30px;
+  color: gold;
+  cursor: pointer;
 }
 .logo {
   font-size: 30px;
@@ -86,6 +89,7 @@ nav {
   transform: scale(1.1);
   transition: 0.5s linear;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 900;
 }
 .card img {
   width: 100%;
