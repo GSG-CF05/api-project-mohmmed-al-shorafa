@@ -5,7 +5,7 @@
   transition: 0.2s linear all;
 }
 body {
-  background-image: url(../img/bgbody.jpeg);
+  background-color: #dbdbdb;
   margin-bottom: 50px;
 }
 /* start the header  */
@@ -36,6 +36,7 @@ nav {
   color: gold;
 }
 .list {
+  display: none;
   position: sticky;
   top: 58px;
   width: 50%;
@@ -67,7 +68,7 @@ nav {
   color: #000;
 }
 .dropitem {
-  display: none;
+  display: block;
 }
 /* end the header  */
 /* stat digzin card  */

@@ -1,0 +1,29 @@
+@media (min-width: 767px) {
+  header {
+    display: none;
+  }
+  .list {
+    width: 30%;
+  }
+  nav {
+    padding: 30px 20px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  .container .card {
+    width: 20%;
+    margin: 30px;
+  }
+  .container .card img {
+    height: 300px;
+  }
+  .toTop {
+    width: 150px;
+    z-index: 5;
+  }
+}
