@@ -38,6 +38,13 @@ nav {
   font-size: 30px;
   color: gold;
 }
+.title {
+  font-size: 67px;
+  text-align: center;
+  color: gold;
+  -webkit-text-stroke: 2px rgb(3, 3, 3);
+  text-shadow: 2px 2px 4px #000000;
+}
 .list {
   display: none;
   position: sticky;
