@@ -5,12 +5,12 @@
   transition: 0.2s linear all;
 }
 body {
-  background-image: url(../bgbody.jpeg);
+  background-image: url(../img/bgbody.jpeg);
   margin-bottom: 50px;
 }
 /* start the header  */
 header {
-  background-image: url(../bgherdar.webp);
+  background-image: url(../img/bgherdar.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 200px;
